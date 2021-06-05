@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/myyellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ofpc">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolberr" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORGANIC FARMING PROMOTION"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:layout_below="@id/toolbar"/>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our main goal at the krishi project is to empower all the farmers across India and encourage them to go back to the roots of true Indian agriculture. Organic farming- for the greater benefit of all.   The Organic Farming Promotion Council looks to create great impact by providing all the knowledge and resources required to take up green farming practices and maintains the goal of being able to work directly with the government in order to provide incentives to farmers for taking up organic and healthy farming to undo the damage of modern agricultural traditions."
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_below="@id/tv3"/>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/myyellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vidya">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolberr" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIDYA"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_below="@id/toolbar"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Knowledge is power and there has never been a better time to empower ourselves and find our roots. \n Find the resources you need to learn from the farmers who made it."
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_below="@id/tv1"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tv2"/>
+</RelativeLayout>

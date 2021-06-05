@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@color/myyellow">
+
+
+        <TextView
+            android:id="@+id/vidtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="15dp"
+            android:text="green farming" />
+
+        <WebView
+            android:id="@+id/videoWebView"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            >
+
+        </WebView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

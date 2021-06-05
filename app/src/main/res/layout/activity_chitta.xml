@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/myyellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chitta">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolberr" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHITTA"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:layout_below="@id/toolbar"/>
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Socialise with your fellow brothers and sisters in agriculture and share your stories.\n
+ Need professional counselling session? Find the help you want, here.\n Contact us if you wish to apply and volunteer. "
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_below="@id/tv5"/>
+</RelativeLayout>

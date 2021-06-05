@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    >
+
+    <ImageView
+        android:id="@+id/tkplogo"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/tkplogo"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="the krishi project"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textColor="#B67329"
+        android:gravity="center"/>
+
+</androidx.appcompat.widget.Toolbar>

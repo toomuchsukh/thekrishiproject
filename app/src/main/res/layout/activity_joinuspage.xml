@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/myyellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".joinuspage">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolberr" />
+
+    <TextView
+        android:id="@+id/regtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:padding="12dp"
+        android:letterSpacing="0.2"
+        android:text="register to be a part of our community and cause."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="EMAIL"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:id="@+id/nametv"
+        android:gravity="center"
+        android:layout_below="@id/regtv"
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:hint="Enter Email"
+
+        android:id="@+id/e1"
+        android:layout_below="@id/nametv"
+        android:background="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="PASSWORD"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:id="@+id/phonetv"
+        android:gravity="center"
+        android:layout_below="@id/regtv"
+
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+
+        android:hint="Enter Password"
+
+        android:id="@+id/e2"
+        android:layout_below="@id/phonetv"
+        android:background="@color/white"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:textAlignment="center"
+        android:text="JOIN US"
+        android:layout_centerInParent="true"
+        android:background="@color/myorange"
+        android:elevation="4dp"
+        android:id="@+id/joinb"
+        android:gravity="center"
+        android:layout_below="@id/regtv"
+        />
+
+
+</RelativeLayout>
